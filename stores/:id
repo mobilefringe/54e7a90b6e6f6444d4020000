@@ -361,7 +361,7 @@ background-color: #FFFFFF ;
                     }
                     
                     
-                    if ((val.store_front_url).indexOf('missing.png') > -1){ val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54f605386e6f6412de000000/e18b7cb654e0d378e2b630d744f86974/milton.png" } else { val.alt_store_front_url = getImageURL(val.store_front_url); }
+                    if ((val.store_front_url).indexOf('missing.png') > -1){ val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54e7a90b6e6f6444d4020000/84eebe4f6ca51b513df490ddf1dd4cb8/default.jpg" } else { val.alt_store_front_url = getImageURL(val.store_front_url); }
                     
                     
                     val.hours = (getHoursForIds(val.store_hours))
