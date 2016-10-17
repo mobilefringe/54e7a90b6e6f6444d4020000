@@ -93,7 +93,7 @@
             imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
         });      
     });
-    setEndPoint('//dorvalcrossing.mallmaverick.com/api/v2/dorvalcrossing/all.json');
+    setEndPoint('//dorvalcrossing.mallmaverick.com/api/v3/dorvalcrossing/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
