@@ -199,7 +199,6 @@ background-color: #FFFFFF ;
 
 <script>
     $(document).ready(function() {
-        
         function renderPageData(){
             //renders the store list by referencing the template id and the html id
             //for where to place the rendered content. See mallmaverick.js for implementation
@@ -391,7 +390,7 @@ background-color: #FFFFFF ;
                         
                         var open_time = moment(val.open_time).tz(getPropertyTimeZone());
                         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-                        val.hour_string = val.day + ": " + open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
+                        val.h = val.day + ": " + open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
                     } else {
                         val.h = val.day+": Closed"
                     }
