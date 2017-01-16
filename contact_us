@@ -21,10 +21,10 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
-                    <p class="directory_content"><strong>Robin Telford</strong> 
-                    <br>Assistant Property Manager
-                    <br>(905) 822-2778
-                    <br><a href="mailto:rtelford@bentallkennedy.com">rtelford@bentallkennedy.com</a></p>
+                    <p class="directory_content"><strong> Dan Free</strong> 
+                    <br>General Manager
+                    <br>(905) 822-0344
+                    <br><a href="mailto:dfree@bentallkennedy.com">dfree@bentallkennedy.com</a></p>
                     <br>
                     <p class="directory_content"><strong>Dorval Crossing East</strong>
                     <br><strong>Garnet Peirson</strong> 
@@ -114,10 +114,10 @@
                       
                 
                     <p class="directory_content"><strong>Dorval Crossing East</strong>
-                    <p class="directory_content"><strong>Robin Telford</strong> 
-                    <br>Assistant Property Manager
-                    <br>(905) 822-2778
-                    <br><a href="mailto:rtelford@bentallkennedy.com">rtelford@bentallkennedy.com</a>
+                   <p class="directory_content"><strong> Dan Free</strong> 
+                    <br>General Manager
+                    <br>(905) 822-0344
+                    <br><a href="mailto:dfree@bentallkennedy.com">dfree@bentallkennedy.com</a></p>
                     <br>
                     <br><strong>Garnet Peirson</strong> 
                     <br>Director of Leasing*
