@@ -80,7 +80,7 @@
         function render_categories(categories){
             $.each( categories , function( key, val ) {
                 val.link = "cat" + val.id;
-                $("#categories_container").append('<a href="#categories_container" class="cat_links directory_content" onclick=(show_cat('+val.link+')) id="cat'+val.id+'_link">'+val.name+'</a><br>');
+                $("#categories_container").append('<a href="#categories_container" class="cat_links directory_content" onclick=(show_cat(' + val.link + ')) id="cat'+val.id+'_link">'+val.name+'</a><br>');
                 $("#mobile_categories_container").append('<a href="#categories_container" class="cat_links directory_content" onclick=(show_cat('+val.link+')) id="mobile_cat'+val.id+'_link">'+val.name+'</a><br>');
             });
         }
@@ -99,9 +99,9 @@
                 if (type == "stores" || type == "category_stores"){
                     if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
                             val.alt_store_front_url = "//kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/77c900d783abeb362232339ece231335/10dundas_default.jpg"    
-                        } else {
-                            val.alt_store_front_url = getImageURL(val.store_front_url);    
-                        }
+                    } else {
+                        val.alt_store_front_url = getImageURL(val.store_front_url);    
+                    }
                     switch(val.z_coordinate) {
                         case 0: 
                             val.z_coordinate = "B2"
