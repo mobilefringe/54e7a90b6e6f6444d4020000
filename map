@@ -261,9 +261,7 @@
                 
                 renderStoreList(stores)
             }
-
-               
-            }else{
+            } else{
                 $('#loading').hide();
                 $('#zControls').hide();
                 $('#map').hide();
