@@ -64,11 +64,12 @@
     $(document).ready(function() {
         function renderAll (){
             var stores = getStoresList();
-            var category_stores = getStoresListByCategory();
-            var categories = getStoreCategories();
-            var propertyDetails = getPropertyDetails();
-            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             renderPageData('#store_list_container','#store_list_template', stores, "stores");
+            // var category_stores = getStoresListByCategory();
+            // var categories = getStoreCategories();
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template', propertyDetails, 'property_details');
+            
             // renderPageData('#categories_container', '#categories_list_template', categories, "categories");
             
             var categories = getStoreCategories();
