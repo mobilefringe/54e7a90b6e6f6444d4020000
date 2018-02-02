@@ -21,12 +21,13 @@
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                      <br>
-                    <p class="directory_content"><strong> Jeff Gracey</strong> 
+                       <p class="directory_content"><strong>Dorval Crossing East</strong>
+                    <strong> Jeff Gracey</strong> 
                     <br>Senior Property Manager
                     <br>(416) 757-7770 ext. 106
-                    <br><a href="mailto:jgracey@bentallkennedy.com">jgracey@bentallkennedy.com</a></p>
+                    <br><a href="mailto:jgracey@bentallkennedy.com">jgracey@bentallkennedy.com</a>
                     <br>
-                    <p class="directory_content"><strong>Dorval Crossing East</strong>
+                  
                     <br><strong>Paul Ceresne</strong> 
                     <br>Director of Leasing*
                     <br>1.866.681.2715
