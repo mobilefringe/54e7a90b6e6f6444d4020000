@@ -232,6 +232,19 @@ color: #05aed9;
      .site-map-section a:hover {
          color: #dc0ebf5;
      }
+     copyright, .copyright a {
+            color: #FFF;
+        }
+        .copyright a:hover, .copyright a:focus {
+            color: #FFF !important;
+            text-decoration: underline;
+        }
+        .copyright {
+            background-color: rgba(0, 0, 0, 1);
+        }
+        .accessible {
+            color: #fff;
+        }
     #footer_teasers_wrapper .footer_teaser a {
         font-size: 13px;
         color: #ccc;
