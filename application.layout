@@ -735,5 +735,4 @@ color: #05aed9;
     		return false;
     	});
     });
-
 </script>
