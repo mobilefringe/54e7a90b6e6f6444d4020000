@@ -224,7 +224,7 @@
        width:100% !important;
    }
     .right_column_header {
-        color: #05aed9;
+        color: #05a0c7;
     }
     
     .navbar .nav li a:hover {
