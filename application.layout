@@ -224,6 +224,14 @@ color: #05aed9;
      .site-map-section a:hover {
          color: #dc0ebf5;
      }
+      #footer_teasers_wrapper .footer_teaser a {
+            font-size: 13px;
+            color: #ccc;
+        }
+        #footer_teasers_wrapper .footer_teaser a:hover {
+            color: #ccc !important;
+            text-decoration: underline;
+        }
     @media (max-width: 767px) {
         .main_window{
             width:100%;
