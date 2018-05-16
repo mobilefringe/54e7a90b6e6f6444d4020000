@@ -73,7 +73,7 @@
         <ul class="breadcrumb">
             <li><a href="/home">Home</a> </li>
             <li><a href="/stores">Store Directory</a></li>
-        <li class="active">Centre Map</li>
+            <li class="active">Centre Map</li>
         </ul>
     </nav>
     <div class="page_banner">
