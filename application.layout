@@ -129,11 +129,11 @@
         background:#05aed9;
     }
     .breadcrumb > .active {
-color: #05aed9;
-}
-.site_description {
-    color:black;
-}
+        color: #05aed9;
+    }
+    .site_description {
+        color:black;
+    }
     .main_window{
         border:40px solid #c0ebf5;
     }
