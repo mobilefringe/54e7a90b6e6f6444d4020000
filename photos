@@ -122,8 +122,6 @@
 
         loadMallData(renderAll);  
 
-            
-  
     });
     
 </script>
