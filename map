@@ -113,7 +113,7 @@
             var maptype = "svg"
             renderMap(maptype);
             $("#btnZoomIn").attr('alt', 'Zoom In');
-$("#btnZoomOut").attr('alt', 'Zoom Out');
+            $("#btnZoomOut").attr('alt', 'Zoom Out');
 
         }
         
