@@ -126,7 +126,8 @@
     }
     
     header{
-        background:#05aed9;
+        background: # 04809f;
+        /*#05aed9;*/
     }
     .breadcrumb > .active {
         color: #05aed9;
