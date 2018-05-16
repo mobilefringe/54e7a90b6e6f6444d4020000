@@ -159,7 +159,6 @@
     .view_button {
         background:#38853c !important;
         /*background:#66bf6b !important;*/
-       
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
