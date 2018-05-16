@@ -130,6 +130,7 @@
                 nextText: "",
                 pauseOnHover: true
             });
+            pauseOnHover: true,
         }
         
         function renderFeatureItems(feature_template,feature_items,featureList){
