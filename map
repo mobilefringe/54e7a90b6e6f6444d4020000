@@ -112,6 +112,9 @@
             // specify the type of map here. "png" or "svg"
             var maptype = "svg"
             renderMap(maptype);
+            $("#btnZoomIn").attr('alt', 'Zoom In');
+$("#btnZoomOut").attr('alt', 'Zoom Out');
+
         }
         
         function renderStoreList(stores){
