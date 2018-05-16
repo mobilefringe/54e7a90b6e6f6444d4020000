@@ -25,13 +25,13 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/5afc732f6e6f64387b260000/image/png/1517599194000/winners.png"/>
+            <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/5afc732f6e6f64387b260000/image/png/1517599194000/winners.png"/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
                         <div class="promo_desc_box" style="width:100%">
-                            <a href="../jobs/{{slug}}"><p class="promo_header right_column_header">{{name}}</p></a>
-                            <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{job_type}}<a href="../jobs/{{slug}}" class="btn btn-primary pull-right" style="margin-top:-17px">Read More</a></p>
+                            <p class="promo_header right_column_header">{{name}}</p>
+                            <p class="directory_content promo_date"><a href="/stores/{{store_detail_btn}}">{{store_name}}</a><br>{{job_type}}<a href="../jobs/{{slug}}" class="btn btn-primary pull-right" style="margin-top:-17px">Job Details</a></p>
                              </div>
                         </div>
                     </div>
