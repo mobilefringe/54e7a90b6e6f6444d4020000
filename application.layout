@@ -282,7 +282,7 @@ color: #05aed9;
                     </ul>
                 </div>
 
-                <div class="collapse navbar-collapse">              
+                <nav class="collapse navbar-collapse">              
                     <ul class="nav pull-right navbar-nav">
                         
                          <li id="directory_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Store Directory <span class="caret"></span></a>
