@@ -92,8 +92,7 @@
                 imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
             });      
         });
-        // setEndPoint('//dorvalcrossing.mallmaverick.com/api/v4/dorvalcrossing/all.json');
-        setEndPoint('//twinpine.mallmaverick.com/api/v4/twinpine/all.json');
+        setEndPoint('//dorvalcrossing.mallmaverick.com/api/v4/dorvalcrossing/all.json');
     </script>
 <style>
     /*custom styles*/
