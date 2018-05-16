@@ -128,7 +128,7 @@
                 directionNav: true,        
                 prevText: "",
                 nextText: "",
-                pauseOnHover: true,\
+                pauseOnHover: true
             });
         }
         
