@@ -108,17 +108,17 @@
             background-repeat: no-repeat;
         }
     a .directory_content:hover{
-        color: #66bf6b !important;
+        color: #38853c !important;
     }
     /*hyperlinks*/
     a{
-        color:#66bf6b;
+        color:#38853c;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color:#66bf6b !important;
+        color:#38853c !important;
     }
     
     body{
