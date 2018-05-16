@@ -232,7 +232,7 @@ color: #05aed9;
      .site-map-section a:hover {
          color: #dc0ebf5;
      }
-     copyright, .copyright a {
+     .copyright, .copyright a {
             color: #FFF;
         }
         .copyright a:hover, .copyright a:focus {
