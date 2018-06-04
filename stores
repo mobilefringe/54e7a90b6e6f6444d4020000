@@ -66,6 +66,8 @@
         function renderAll (){
             var stores = getStoresList();
             console.log(stores)
+            _.map(stores, function(o) { return !o.name === "Bentall Kennedy Store"; })
+            console.log(stores)
             renderPageData('#store_list_container','#store_list_template', stores, "stores");
 
             var propertyDetails = getPropertyDetails();
