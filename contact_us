@@ -14,7 +14,7 @@
     <div class="inside_page_content">
     
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//codecloud.cdn.speedyrails.net/sites/5afc732f6e6f64387b260000/image/png/1517599721000/ortho.png"/>
+            <img class="inside_banner_image" alt="banner" src=""/>
             <div class="show_mobile">
             <p class="right_column_header">centre information</p>
             <div id="centre_info_container_mobile">
@@ -186,6 +186,13 @@
             });
             $("#loading_screen").hide();
             $("#main_content").show();
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Contact Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            if (bannerImageUrl) {
+                $(".inside_banner_image").attr("src", bannerImageUrl);
+            }
         }
 
         function renderPageData(container, template, collection, type){
