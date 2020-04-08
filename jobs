@@ -25,7 +25,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/5afc732f6e6f64387b260000/image/png/1517599194000/winners.png"/>
+            <img class="inside_banner_image" alt="" src=""/>
             <div class="promo_list_div" id="promo_list_container">
                 <script id="promo_list_template" type="x-tmpl-mustache/text">
                     <div class="promo_inside_content">
@@ -81,6 +81,13 @@
             }
             $("#loading_screen").hide();
             $("#main_content").show();  
+            
+            // dynamic banner 
+            var bannerInfo = getRepoDetailsByName('Jobs Banner')
+            var bannerImageUrl = bannerInfo.images[0].image_url
+            if (bannerImageUrl) {
+                $(".inside_banner_image").attr("src", bannerImageUrl);
+            }
         }
         
     
